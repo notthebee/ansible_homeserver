@@ -1,0 +1,9 @@
+---
+warn_list:
+  - package-latest
+  - yaml
+skip_list:
+  - fqcn
+  - experimental
+  - name[template]
+  - no-handler

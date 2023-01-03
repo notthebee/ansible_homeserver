@@ -1,7 +1,14 @@
+---
 - name: Update packages
-  dnf:
-    name: "*"
-    state: latest
+  apt:
+    update_cache: yes
+    upgrade: yes
+
+- name: Create groups
+  group:
+    name:
+      - docker
+      - sudo
 
 - name: Install essential packages
   package:
