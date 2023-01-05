@@ -1,2 +1,2 @@
 [home]
-homeserver ansible_host=192.168.64.2 ansible_user=notthebee ansible_connection=ssh ansible_ssh_private_key_file=/Users/notthebee/.ssh/notthebee
+homeserver ansible_host=192.168.64.2 ansible_user=notthebee ansible_connection=ssh ansible_ssh_private_key_file=/Users/notthebee/.ssh/notthebee ansible_ssh_port=22

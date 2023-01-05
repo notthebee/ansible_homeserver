@@ -1,0 +1,15 @@
+---
+username: notthebee
+
+password: changeme
+
+shell: /bin/bash
+
+ssh_port: 22
+
+packages:
+  - vim
+  - htop
+  - neofetch
+  - tmux
+  - speedtest-cli
